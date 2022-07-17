@@ -2,7 +2,7 @@
   kind: PubSubTopic
   metadata:
     annotations:
-      cnrm.cloud.google.com/project-id: PROJECT_ID
+      cnrm.cloud.google.com/project-id: auverk-cert
     labels:
-      LABEL_KEY:LABEL_VALUE
-    name: TOPIC_NAME
+      environment:development
+    name: dev-pubsub-topic
